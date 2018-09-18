@@ -2,8 +2,7 @@ time = int(input("Time Spent on the road = "))
 acc = int(input("Acceleration = "))
 distance = int(input("Distance = "))
 for i in range (0,time+1):
-    done = acc*i*i/2
-    done= done /10
+    done = acc*i*i/20
     done = int(done)
     print("Duration: ",i,"Distance: ","*" * done)
 
