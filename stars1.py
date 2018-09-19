@@ -4,7 +4,7 @@ for i in range (1,number+1):
     for p in range (1,i+1):
         print("*",end="")
     print()
-
+print()
 for i in range (1,number+1):
     for p in range (1,number+1):
         if ((number-i)>=p):
@@ -12,12 +12,12 @@ for i in range (1,number+1):
         else:
             print('*',end="")
     print()
-
+print()
 for i in range (1,number+1):
     for p in range (1,number-i+2):
         print('*',end="")
     print()
-
+print()
 for i in range (1,number+1):
     for p in range (1,number+1):
         if (i>p):
@@ -25,7 +25,7 @@ for i in range (1,number+1):
         else:
             print ('*',end="")
     print()
-
+print()
 for i in range (1,number+1):
     for p in range (1,2*number):
         if ((p<number-i+1) or (p>number+i-1)):
@@ -33,7 +33,7 @@ for i in range (1,number+1):
         else:
             print('*',end="")
     print()
-
+print()
 
 for i in range (1,number+1):
     for p in range (1,2*number):
@@ -50,4 +50,4 @@ for i in range (2,number+1):
         else:
             print(' ',end="")
     print()
-
+print()
