@@ -163,3 +163,8 @@ while True:
         print ("your input are wrong.")
         if trya(): continue
         else: exit()
+
+"""
+http://svn.python.org/projects/stackless/trunk/Lib/encodings/cp720.py
+copy some good ascii
+"""
