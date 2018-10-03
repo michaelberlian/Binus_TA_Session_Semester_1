@@ -33,8 +33,6 @@ def pmaps():
                 y = p
             elif (arr[i][p] == "2"):
                 print ("#",end=" ")
-            else:
-                print ("A",end=" ")
         print ()
 def write():
     files = open("maps.txt","w")
